@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Royal Blade Barbershop kapcsolat és időpontfoglalás Mátészalkán.">
+    <title>Időpontfoglalás | Royal Blade</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="teteje">
+
+    <header>
+
+        <a href="index.html" class="logo">
+            ROYAL <span>BLADE</span>
+        </a>
+
+        <nav>
+            <a href="index.html">Főoldal</a>
+            <a href="szolgaltatasok.html">Szolgáltatások</a>
+            <a href="kapcsolat.html" class="aktiv">Időpontfoglalás</a>
+        </nav>
+
+        <a href="kapcsolat.html" class="fejlec-gomb">
+            Időpontot kérek
+        </a>
+
+    </header>
+
+    <main>
+
+        <section class="oldal-fejlec">
+
+            <p class="felirat">ROYAL BLADE · MÁTÉSZALKA</p>
+
+            <h1>
+                Időpontfoglalás
+            </h1>
+
+            <span>
+                Válaszd ki a szolgáltatást és add meg, mikor érkeznél.
+            </span>
+
+        </section>
+
+        <section class="kapcsolat">
+
+            <div class="kapcsolat-info">
+
+                <p class="felirat">KAPCSOLAT</p>
+
+                <h2>
+                    Várunk a székben.
+                </h2>
+
+                <p class="kapcsolat-leiras">
+                    Ha kérdésed van, vagy szeretnél időpontot kérni,
+                    keress minket telefonon vagy e-mailben.
+                </p>
+
+                <div class="kapcsolati-adat">
+
+                    <span>TELEFON</span>
+
+                    <a href="tel:+36301234567">
+                        +36 30 123 4567
+                    </a>
+
+                </div>
+
+                <div class="kapcsolati-adat">
+
+                    <span>E-MAIL</span>
+
+                    <a href="mailto:info@royalblade.hu">
+                        info@royalblade.hu
+                    </a>
+
+                </div>
+
+                <div class="kapcsolati-adat">
+
+                    <span>CÍM</span>
+
+                    <p>
+                        Mátészalka, Magyarország
+                    </p>
+
+                </div>
+
+                <div class="nyitvatartas-doboz">
+
+                    <h3>Nyitvatartás</h3>
+
+                    <div>
+                        <span>Hétfő - Péntek</span>
+                        <strong>9:00 - 18:00</strong>
+                    </div>
+
+                    <div>
+                        <span>Szombat</span>
+                        <strong>9:00 - 14:00</strong>
+                    </div>
+
+                    <div>
+                        <span>Vasárnap</span>
+                        <strong>Zárva</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="urlap">
+
+                <p class="felirat">FOGLALÁS</p>
+
+                <h2>
+                    Kérj időpontot
+                </h2>
+
+                <p class="urlap-leiras">
+                    Töltsd ki az alábbi adatokat, és add meg,
+                    mikor szeretnél érkezni.
+                </p>
+
+                <form>
+
+                    <div class="ket-mezo">
+
+                        <div>
+                            <label for="nev">Név</label>
+                            <input type="text" id="nev" name="nev" placeholder="Teljes név">
+                        </div>
+
+                        <div>
+                            <label for="telefon">Telefonszám</label>
+                            <input type="text" id="telefon" name="telefon" placeholder="+36 ...">
+                        </div>
+
+                    </div>
+
+                    <label for="email">E-mail</label>
+
+                    <input type="email" id="email" name="email" placeholder="pelda@email.hu">
+
+                    <label for="szolgaltatas">
+                        Választott szolgáltatás
+                    </label>
+
+                    <select id="szolgaltatas" name="szolgaltatas">
+
+                        <option value="">
+                            Válassz szolgáltatást
+                        </option>
+
+                        <option value="hajvagas">
+                            Klasszikus hajvágás - 5 000 Ft
+                        </option>
+
+                        <option value="fade">
+                            Skin Fade - 6 000 Ft
+                        </option>
+
+                        <option value="hajszakall">
+                            Haj + szakáll - 8 000 Ft
+                        </option>
+
+                        <option value="szakall">
+                            Szakálligazítás - 3 500 Ft
+                        </option>
+
+                        <option value="premium">
+                            Prémium csomag - 10 000 Ft
+                        </option>
+
+                    </select>
+
+                    <div class="ket-mezo">
+
+                        <div>
+                            <label for="datum">Dátum</label>
+                            <input type="date" id="datum" name="datum">
+                        </div>
+
+                        <div>
+                            <label for="ido">Időpont</label>
+                            <input type="time" id="ido" name="ido">
+                        </div>
+
+                    </div>
+
+                    <label for="megjegyzes">
+                        Megjegyzés
+                    </label>
+
+                    <textarea id="megjegyzes" name="megjegyzes" placeholder="Pl. milyen frizurát szeretnél?"></textarea>
+
+                    <button type="submit" class="arany-gomb">
+                        Időpont kérése
+                        <span>→</span>
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+        <section class="kapcsolat-cta">
+
+            <div>
+
+                <p class="felirat">INKÁBB TELEFONON?</p>
+
+                <h2>
+                    Hívj minket közvetlenül.
+                </h2>
+
+            </div>
+
+            <a href="tel:+36301234567" class="telefon-gomb">
+                +36 30 123 4567
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="footer-tartalom">
+
+            <div class="footer-logo">
+
+                <a href="index.html" class="logo">
+                    ROYAL <span>BLADE</span>
+                </a>
+
+                <p>
+                    Premium barbershop<br>
+                    Mátészalka
+                </p>
+
+            </div>
+
+            <div class="footer-oszlop">
+
+                <h3>Oldalak</h3>
+
+                <a href="index.html">Főoldal</a>
+                <a href="szolgaltatasok.html">Szolgáltatások</a>
+                <a href="kapcsolat.html">Időpontfoglalás</a>
+
+            </div>
+
+            <div class="footer-oszlop">
+
+                <h3>Kapcsolat</h3>
+
+                <a href="tel:+36301234567">+36 30 123 4567</a>
+                <a href="mailto:info@royalblade.hu">info@royalblade.hu</a>
+                <span>Mátészalka, Magyarország</span>
+
+            </div>
+
+            <div class="footer-oszlop">
+
+                <h3>Nyitvatartás</h3>
+
+                <span>Hétfő - Péntek: 9:00 - 18:00</span>
+                <span>Szombat: 9:00 - 14:00</span>
+                <span>Vasárnap: Zárva</span>
+
+            </div>
+
+        </div>
+
+        <div class="footer-also">
+            <span>© 2026 Royal Blade Barbershop</span>
+            <span>Minden jog fenntartva.</span>
+        </div>
+
+    </footer>
+
+    <a href="#teteje" id="topGomb">↑</a>
+
+</body>
+
+</html>
